@@ -4,9 +4,7 @@ metadata:
   labels:
     app: nginx
   name: nginx
-  namespace: default
 spec:
-  clusterIP: 10.43.10.76
   ports:
   - port: 80
     protocol: TCP
