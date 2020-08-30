@@ -1,5 +1,8 @@
 namePrefix: kustomize-
 
+commonLabels:
+  owner: justme
+
 resources:
 - nginx-deployment.yaml
 - nginx-svc.yaml
