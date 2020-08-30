@@ -3,7 +3,3 @@ namePrefix: kustomize-
 resources:
 - nginx-deployment.yaml
 - nginx-svc.yaml
-
-replicas:
-- name: nginx
-  count: 2
