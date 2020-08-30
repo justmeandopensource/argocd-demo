@@ -1,4 +1,5 @@
 namePrefix: kustomize-
+nameSuffix: -v2
 
 resources:
 - nginx-deployment.yaml
