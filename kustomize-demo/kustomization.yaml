@@ -6,6 +6,3 @@ namePrefix: kustomize-
 resources:
 - nginx-deployment.yaml
 - nginx-svc.yaml
-
-commonAnnotations:
-  channel: marconesns
