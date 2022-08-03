@@ -6,3 +6,7 @@ namePrefix: kustomize-
 resources:
 - nginx-deployment.yaml
 - nginx-svc.yaml
+
+patchesStrategicMerge:
+- set_replicas.yaml
+- set_memory.yaml
