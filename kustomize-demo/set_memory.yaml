@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-      - name: my-nginx
+      - name: nginx
         resources:
           limits:
             memory: 512Mi
