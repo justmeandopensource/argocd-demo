@@ -1,2 +1,2 @@
 # argocd-demo
-ArgoDC Demo
+ArgoDC Demo: test
