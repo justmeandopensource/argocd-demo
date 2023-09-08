@@ -7,5 +7,5 @@ resources:
 - nginx-deployment.yaml
 - nginx-svc.yaml
 
-commomAnnotations:
+commonAnnotations:
   channel: Deloitte
